@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
 			//Tìm tâm mã QR
 			float center_x = (center_anchors[1].x + center_anchors[2].x) / 2;
 			float center_y = (center_anchors[1].y + center_anchors[2].y) / 2;
-			Point2f center_qr = Point2f(center_x, center_y);
+			Point2f center_qr = Point2f(center_x, center_y); 
 
 			//Tìm đỉnh ngoài cùng mỗi neo, xếp về đầu vector
 			for (int i = 0; i < center_anchors.size(); i++) {
